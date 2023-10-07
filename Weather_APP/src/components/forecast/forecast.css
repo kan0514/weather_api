@@ -1,0 +1,46 @@
+/* Specific styles for Forecast component */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.daily-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-small {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.min-max {
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: auto;
+}
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add any additional styles for the Forecast component here */
